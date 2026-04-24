@@ -15,6 +15,7 @@ function SearchBar({onSearch}) {
 
   return (
     <div className='flex gap-3 mb-4 justify-center'>
+        <h1 className='text-2xl font-bold items-center'>Search:</h1>
         <input type='text'
         placeholder='Search meals...'
         value={query}
