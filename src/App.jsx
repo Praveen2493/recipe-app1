@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import RecipeDetails from './pages/RecipeDetails'
+import Favorites from './pages/Favorites'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/recipe/:id' element={<RecipeDetails/>}/>
+      <Route path='/favorites' element={<Favorites/>}/>
     </Routes>
   </BrowserRouter>
   )

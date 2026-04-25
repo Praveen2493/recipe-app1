@@ -7,6 +7,7 @@ function Navbar() {
         <h1 className='text-2xl font-bold'>🍽️ Recipe App</h1>
 
         <Link to='/' className='hover:text-yellow-400'>Home</Link>
+        <Link to='/favorites'>Favorites</Link>
     </div>
   )
 }
